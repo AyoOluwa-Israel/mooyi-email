@@ -28,6 +28,10 @@ a[x-apple-data-detectors] {
   mso-hide: all;
 }
 
+[data-ogsb] .es-button.es-button-1711450757646 {
+  padding: 10px 30px !important;
+}
+
 /*
 END OF IMPORTANT
 */
@@ -302,7 +306,6 @@ a {
 .es-wrapper {
   width: 100%;
   height: 100%;
-  background-image: ;
   background-repeat: repeat;
   background-position: center top;
 }
@@ -314,13 +317,12 @@ a {
 
 .es-header {
   background-color: transparent;
-  background-image: ;
   background-repeat: repeat;
   background-position: center top;
 }
 
 .es-header-body {
-  background-color: transparent;
+  background-color: #ffffff;
 }
 
 .es-header-body p,
@@ -331,7 +333,7 @@ a {
 }
 
 .es-header-body a {
-  color: #333333;
+  color: #2cb543;
   font-size: 14px;
 }
 
@@ -347,30 +349,29 @@ a {
 }
 
 .es-content-body a {
-  color: #333333;
+  color: #2cb543;
   font-size: 14px;
 }
 
 .es-footer {
   background-color: transparent;
-  background-image: ;
   background-repeat: repeat;
   background-position: center top;
 }
 
 .es-footer-body {
-  background-color: #808080;
+  background-color: #ffffff;
 }
 
 .es-footer-body p,
 .es-footer-body ul li,
 .es-footer-body ol li {
-  color: #ffffff;
+  color: #333333;
   font-size: 14px;
 }
 
 .es-footer-body a {
-  color: #ffffff;
+  color: #2cb543;
   font-size: 14px;
 }
 
@@ -430,29 +431,30 @@ h3 {
 a.es-button,
 button.es-button {
   display: inline-block;
-  background: #f0f0f0;
-  border-radius: 0px;
-  font-size: 16px;
+  background: #31cb4b;
+  border-radius: 30px;
+  font-size: 18px;
   font-family: arial, 'helvetica neue', helvetica, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 120%;
-  color: #333333;
-  text-decoration: none !important;
+  color: #ffffff;
+  text-decoration: none;
   width: auto;
   text-align: center;
-  padding: 5px 30px 5px 30px;
+  padding: 10px 20px 10px 20px;
+  mso-padding-alt: 0;
+  mso-border-alt: 10px solid #31cb4b;
 }
 
 .es-button-border {
   border-style: solid solid solid solid;
-  border-color: #808080 #808080 #808080 #808080;
-  background: #f0f0f0;
-  border-width: 2px 2px 2px 2px;
+  border-color: #2cb543 #2cb543 #2cb543 #2cb543;
+  background: #31cb4b;
+  border-width: 0px 0px 2px 0px;
   display: inline-block;
-  border-radius: 0px;
+  border-radius: 30px;
   width: auto;
-  mso-border-alt: 10px;
 }
 
 .msohide {
@@ -480,60 +482,63 @@ button.es-button {
 
   h1 {
       font-size: 30px !important;
-      text-align: center;
+      text-align: left;
   }
 
   h2 {
-      font-size: 26px !important;
-      text-align: center;
+      font-size: 24px !important;
+      text-align: left;
   }
 
   h3 {
       font-size: 20px !important;
-      text-align: center;
+      text-align: left;
   }
 
   .es-header-body h1 a,
   .es-content-body h1 a,
   .es-footer-body h1 a {
       font-size: 30px !important;
+      text-align: left;
   }
 
   .es-header-body h2 a,
   .es-content-body h2 a,
   .es-footer-body h2 a {
-      font-size: 26px !important;
+      font-size: 24px !important;
+      text-align: left;
   }
 
   .es-header-body h3 a,
   .es-content-body h3 a,
   .es-footer-body h3 a {
       font-size: 20px !important;
+      text-align: left;
   }
 
   .es-menu td a {
-      font-size: 13px !important;
+      font-size: 14px !important;
   }
 
   .es-header-body p,
   .es-header-body ul li,
   .es-header-body ol li,
   .es-header-body a {
-      font-size: 16px !important;
+      font-size: 14px !important;
   }
 
   .es-content-body p,
   .es-content-body ul li,
   .es-content-body ol li,
   .es-content-body a {
-      font-size: 16px !important;
+      font-size: 14px !important;
   }
 
   .es-footer-body p,
   .es-footer-body ul li,
   .es-footer-body ol li,
   .es-footer-body a {
-      font-size: 16px !important;
+      font-size: 14px !important;
   }
 
   .es-infoblock p,
@@ -575,15 +580,13 @@ button.es-button {
   }
 
   .es-button-border {
-      display: block !important;
+      display: inline-block !important;
   }
 
   a.es-button,
   button.es-button {
-      font-size: 16px !important;
-      display: block !important;
-      border-left-width: 0px !important;
-      border-right-width: 0px !important;
+      font-size: 18px !important;
+      display: inline-block !important;
   }
 
   .es-adaptive table,
